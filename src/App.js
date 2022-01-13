@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import './Styles/main.scss'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -31,15 +31,15 @@ function Modules() {
         </span>
       </li>
 
-      <li className="moreDashboard">
-        <button
-          className="dashboardBtn"
-          type="button"
-          aria-label="기업 서비스 대시보드로 가기"
-        >
-          <a href="/dashboard">기업 서비스</a>
-        </button>
-      </li>
+      <div className="buttons">
+        <li className="moreDashboard">
+          <button className="dashboardBtn" type="button" aria-label="">
+            <a href="/dashboard" alt="기업 서비스 대시보드로 가기">
+              기업 서비스
+            </a>
+          </button>
+        </li>
+      </div>
     </div>
   )
 }

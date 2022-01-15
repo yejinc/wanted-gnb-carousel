@@ -1,0 +1,14 @@
+.prevBtn,
+.nextBtn {
+  @include flex;
+  width: 30px;
+  height: 60px;
+  background-color: $white;
+  opacity: 0.5;
+  border-radius: 25px;
+
+  img {
+    display: block;
+    object-fit: cover;
+  }
+}

@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Apple SD Gothic', sans-serif;
+  font-family: $font-main;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  font-family: 'Apple SD Gothic', sans-serif;
+  font-family: $font-main;
 }
 
 body {
-  font-family: 'Apple SD Gothic', sans-serif;
-  font-size: 14px;
+  font-family: $font-main;
+  font-size: $font-size-gnb-base;
   color: #333;
 }
 

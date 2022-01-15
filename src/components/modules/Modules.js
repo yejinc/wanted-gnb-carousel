@@ -33,7 +33,7 @@ function Modules() {
 
       <div className="buttons">
         <li className="moreDashboard">
-          <button className="dashboardBtn" type="button" aria-label="">
+          <button className="btnOutlined" type="button" aria-label="">
             <a href="/dashboard" alt="기업 서비스 대시보드로 가기">
               기업 서비스
             </a>

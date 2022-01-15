@@ -86,4 +86,8 @@
   @if ($name == carousel-desc-lg) {
     @include carousel-title-lg;
   }
+
+  @if (type-of($color) == color) {
+    color: $color;
+  }
 }

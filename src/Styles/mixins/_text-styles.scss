@@ -16,14 +16,22 @@
   letter-spacing: $letter-spacing-gnb-base;
 }
 
+@mixin btn-outlined() {
+  font-family: $font-main;
+  font-size: $font-size-btn-outlined;
+  font-weight: $font-weight-btn-outlined;
+  line-height: $line-height-btn-outlined;
+  letter-spacing: $letter-spacing-btn-outlined;
+}
+
 // carousel
 
-@mixin carousel-cta() {
+@mixin btn-ghost() {
   font-family: $font-main;
-  font-size: $font-size-carousel-cta;
-  font-weight: $font-weight-carousel-cta;
-  line-height: $line-height-carousel-cta;
-  letter-spacing: $letter-spacing-carousel-cta;
+  font-size: $font-size-btn-ghost;
+  font-weight: $font-weight-btn-ghost;
+  line-height: $line-height-btn-ghost;
+  letter-spacing: $letter-spacing-btn-ghost;
 }
 
 @mixin carousel-title-sm() {
@@ -67,8 +75,12 @@
     @include gnb-base;
   }
 
-  @if ($name == carousel-cta) {
-    @include carousel-cta;
+  @if ($name == btn-outlined) {
+    @include btn-outlined;
+  }
+
+  @if ($name == btn-ghost) {
+    @include btn-ghost;
   }
 
   @if ($name == carousel-title-sm) {

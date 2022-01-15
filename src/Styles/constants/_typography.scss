@@ -14,12 +14,17 @@ $font-weight-gnb-base: 600;
 $line-height-gnb-base: 1.4285714286; // NOTE: originally 20px, modified for consistency
 $letter-spacing-gnb-base: normal; // NOTE: for further modifications
 
+$font-size-btn-outlined: 13px;
+$font-weight-btn-outlined: 400;
+$line-height-btn-outlined: 2.3076923077; // NOTE: originally 30px, modified for consistency
+$letter-spacing-btn-outlined: normal;
+
 // carousel
 
-$font-size-carousel-cta: 14px;
-$font-weight-carousel-cta: 700;
-$line-height-carousel-cta: 1;
-$letter-spacing-carousel-cta: normal; // NOTE: for further modifications
+$font-size-btn-ghost: 14px;
+$font-weight-btn-ghost: 700;
+$line-height-btn-ghost: 1;
+$letter-spacing-btn-ghost: normal; // NOTE: for further modifications
 
 $font-size-carousel-title-sm: 18px;
 $font-weight-carousel-title-sm: 700;

@@ -26,9 +26,9 @@ function Modules() {
           </div>
         </button>
 
-        <strong className="profileNew" aria-label="새 알림이 있습니다">
+        <span className="profileNew" aria-label="새 알림이 있습니다">
           <img src="/assets/icons/new.svg" alt="나의 새 알람 아이콘" />
-        </strong>
+        </span>
       </li>
     </div>
   )

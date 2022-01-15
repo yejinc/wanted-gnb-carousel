@@ -1,4 +1,4 @@
-.dashboardBtn {
+.btnOutlined {
   @include inline-flex;
   height: 28px;
   padding: 0 10px;
@@ -10,5 +10,26 @@
     @include text-style(btn-outlined, $secondary);
     display: block;
     height: 30px;
+  }
+}
+
+.btnGhost {
+  @include inline-flex;
+  background-color: transparent;
+
+  a {
+    @include flex;
+    @include text-style(btn-ghost, $blue);
+    height: 40px;
+    overflow: hidden;
+
+    img {
+      display: block;
+      width: 14px;
+      height: 14px;
+      filter: invert(34%) sepia(45%) saturate(7263%) hue-rotate(223deg)
+        brightness(107%) contrast(101%); // NOTE: applies color to $blue SVG file
+      object-fit: cover;
+    }
   }
 }

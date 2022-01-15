@@ -1,0 +1,89 @@
+// gnb
+
+@mixin gnb-sm() {
+  font-family: $font-main;
+  font-size: $font-size-gnb-sm;
+  font-weight: $font-weight-gnb-sm;
+  line-height: $line-height-gnb-sm;
+  letter-spacing: $letter-spacing-gnb-sm;
+}
+
+@mixin gnb-base() {
+  font-family: $font-main;
+  font-size: $font-size-gnb-base;
+  font-weight: $font-weight-gnb-base;
+  line-height: $line-height-gnb-base;
+  letter-spacing: $letter-spacing-gnb-base;
+}
+
+// carousel
+
+@mixin carousel-cta() {
+  font-family: $font-main;
+  font-size: $font-size-carousel-cta;
+  font-weight: $font-weight-carousel-cta;
+  line-height: $line-height-carousel-cta;
+  letter-spacing: $letter-spacing-carousel-cta;
+}
+
+@mixin carousel-title-sm() {
+  font-family: $font-main;
+  font-size: $font-size-carousel-title-sm;
+  font-weight: $font-weight-carousel-title-sm;
+  line-height: $line-height-carousel-title-sm;
+  letter-spacing: $letter-spacing-carousel-title-sm;
+}
+
+@mixin carousel-desc-sm() {
+  font-family: $font-main;
+  font-size: $font-size-carousel-desc-sm;
+  font-weight: $font-weight-carousel-desc-sm;
+  line-height: $line-height-carousel-desc-sm;
+  letter-spacing: $letter-spacing-carousel-desc-sm;
+}
+
+@mixin carousel-title-lg() {
+  font-family: $font-main;
+  font-size: $font-size-carousel-title-lg;
+  font-weight: $font-weight-carousel-title-lg;
+  line-height: $line-height-carousel-title-lg;
+  letter-spacing: $letter-spacing-carousel-title-lg;
+}
+
+@mixin carousel-desc-lg() {
+  font-family: $font-main;
+  font-size: $font-size-carousel-desce-lg;
+  font-weight: $font-weight-carousel-desce-lg;
+  line-height: $line-height-carousel-desce-lg;
+  letter-spacing: $letter-spacing-carousel-desce-lg;
+}
+
+@mixin text-style($name, $color: false) {
+  @if ($name == gnb-sm) {
+    @include gnb-sm;
+  }
+
+  @if ($name == gnb-base) {
+    @include gnb-base;
+  }
+
+  @if ($name == carousel-cta) {
+    @include carousel-cta;
+  }
+
+  @if ($name == carousel-title-sm) {
+    @include carousel-title-sm;
+  }
+
+  @if ($name == carousel-desc-sm) {
+    @include carousel-desc-sm;
+  }
+
+  @if ($name == carousel-title-lg) {
+    @include carousel-title-lg;
+  }
+
+  @if ($name == carousel-desc-lg) {
+    @include carousel-title-lg;
+  }
+}

@@ -26,6 +26,38 @@ function GNB() {
                   </a>
                 </h1>
               </div>
+
+              <nav className="gnb-nav">
+                <h2 className="visually-hidden">메뉴</h2>
+                <ul className="gnb-nav-list">
+                  <li className="gnb-nav-item sm-only">
+                    <a href="/">홈</a>
+                  </li>
+                  <li className="gnb-nav-item">
+                    <a href="/jobsfeed">채용</a>
+                  </li>
+                  <li className="gnb-nav-item">
+                    <a href="/events">이벤트</a>
+                  </li>
+                  <li className="gnb-nav-item sm-hidden">
+                    <a href="/salary">직군별 연봉</a>
+                  </li>
+                  <li className="gnb-nav-item sm-hidden">
+                    <a href="/cv">이력서</a>
+                  </li>
+                  <li className="gnb-nav-item sm-hidden">
+                    <a href="/community">커뮤니티</a>
+                    <span>New</span>
+                  </li>
+                  <li className="gnb-nav-item sm-hidden">
+                    <a href="https://www.wanted.co.kr/gigs/experts">프리랜서</a>
+                  </li>
+                  <li className="gnb-nav-item sm-hidden">
+                    <a href="/aiscore/resume">AI 합격예측</a>
+                    <span>New</span>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>

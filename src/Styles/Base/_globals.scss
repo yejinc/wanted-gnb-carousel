@@ -16,6 +16,12 @@
   }
 }
 
+.sm-hidden {
+  @media screen and (max-width: ($md-breakpoint - 1)) {
+    display: none !important;
+  }
+}
+
 .sm-md-only {
   @media screen and (min-width: $lg-breakpoint) {
     display: none !important;

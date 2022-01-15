@@ -1,22 +1,18 @@
 import './App.css'
-import './Styles/main.scss'
+import './styles/main.scss'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* modules */}
+      <div className="buttonGroup">
+        <div className="prevBtn" aria-label="이전 배너로 넘기기">
+          <img src="/assets/icons/arrow.svg" alt="arrow-left" />
+        </div>
+        <div className="nextBtn" aria-label="다음 배너로 넘기기">
+          <img src="/assets/icons/arrow.svg" alt="arrow-right" />
+        </div>
+      </div>
     </div>
   )
 }

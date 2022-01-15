@@ -30,6 +30,16 @@ function Modules() {
           <img src="/assets/icons/new.svg" alt="나의 새 알람 아이콘" />
         </span>
       </li>
+
+      <li className="moreDashboard">
+        <button
+          className="dashboardBtn"
+          type="button"
+          aria-label="기업 서비스 대시보드로 가기"
+        >
+          <a href="/dashboard">기업 서비스</a>
+        </button>
+      </li>
     </div>
   )
 }

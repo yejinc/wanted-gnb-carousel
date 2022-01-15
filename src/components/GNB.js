@@ -17,8 +17,11 @@ function GNB() {
                   />
                 </button>
 
-                <h1 className="gnb-left-logo">
-                  <a href="https://www.wanted.co.kr/">
+                <h1
+                  className="gnb-left-logo"
+                  aria-label="원티드 홈으로 이동하기"
+                >
+                  <a href="https://www.wanted.co.kr/" alt="원티드">
                     <icon className="icon-logo_new"></icon>
                   </a>
                 </h1>

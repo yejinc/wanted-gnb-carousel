@@ -44,4 +44,15 @@
     @include flex;
     position: relative;
   }
+
+  @include responsive(lg) {
+    &-wrapper {
+      flex-wrap: nowrap;
+    }
+
+    &-left {
+      width: auto;
+      height: 50px;
+    }
+  }
 }

@@ -1,9 +1,20 @@
 .gnb-nav {
-  $lg-item-height: 20px;
+  $nav-item-height: 20px;
+
+  $md-item-community-width: 45px; // NOTE: rounded-off width of .gnb-nav-item.community
+  $md-item-aiscore-width: 61px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
+  $md-item-add-top: 1px;
+  $md-item-left-gap: 19px;
+
   $lg-item-community-width: 48px; // NOTE: rounded-off width of .gnb-nav-item.community
   $lg-item-aiscore-width: 66px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
-  $lg-item-add-top: 4px;
-  $lg-item-left-gap: 28px;
+  $lg-item-add-top: 5px;
+  $lg-item-left-gap: 6px;
+
+  $xl-item-community-width: 48px; // NOTE: rounded-off width of .gnb-nav-item.community
+  $xl-item-aiscore-width: 66px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
+  $xl-item-add-top: 4px;
+  $xl-item-left-gap: 24px;
 
   &-list {
     @include flex(start);
@@ -69,8 +80,8 @@
       &.community {
         a {
           strong {
-            top: $lg-item-height + $lg-item-add-top;
-            left: $lg-item-community-width + $lg-item-left-gap;
+            top: $nav-item-height + $md-item-add-top;
+            left: $md-item-community-width + $md-item-left-gap;
           }
         }
       }
@@ -78,8 +89,8 @@
       &.aiscore {
         a {
           strong {
-            top: $lg-item-height + $lg-item-add-top;
-            left: $lg-item-aiscore-width + $lg-item-left-gap;
+            top: $nav-item-height + $md-item-add-top;
+            left: $md-item-aiscore-width + $md-item-left-gap;
           }
         }
       }
@@ -99,6 +110,24 @@
       a {
         padding: 15px 0;
       }
+
+      &.community {
+        a {
+          strong {
+            top: $nav-item-height + $lg-item-add-top;
+            left: $lg-item-community-width + $lg-item-left-gap;
+          }
+        }
+      }
+
+      &.aiscore {
+        a {
+          strong {
+            top: $nav-item-height + $lg-item-add-top;
+            left: $lg-item-aiscore-width + $lg-item-left-gap;
+          }
+        }
+      }
     }
   }
 
@@ -110,6 +139,24 @@
       a {
         padding: 15px;
         font-size: $font-size-gnb-base;
+      }
+
+      &.community {
+        a {
+          strong {
+            top: $nav-item-height + $xl-item-add-top;
+            left: $xl-item-community-width + $xl-item-left-gap;
+          }
+        }
+      }
+
+      &.aiscore {
+        a {
+          strong {
+            top: $nav-item-height + $xl-item-add-top;
+            left: $xl-item-aiscore-width + $xl-item-left-gap;
+          }
+        }
       }
     }
   }

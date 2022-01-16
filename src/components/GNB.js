@@ -64,7 +64,7 @@ function GNB() {
           <ul className="gnb-buttons">
             <li className="gnb-buttons-item">
               <button
-                class="gnb-icon-search"
+                className="gnb-icon-search"
                 type="button"
                 aria-label="검색 열기 버튼"
               >
@@ -73,7 +73,7 @@ function GNB() {
             </li>
             <li className="gnb-buttons-item">
               <button
-                class="gnb-icon-noti"
+                className="gnb-icon-noti"
                 type="button"
                 aria-label="내 소식 열기 버튼"
               >
@@ -85,7 +85,7 @@ function GNB() {
             </li>
             <li className="gnb-buttons-item">
               <button
-                class="gnb-icon-more xs-sm-md-only"
+                className="gnb-icon-more xs-sm-md-only"
                 type="button"
                 aria-label="내 메뉴 열기 버튼"
               >

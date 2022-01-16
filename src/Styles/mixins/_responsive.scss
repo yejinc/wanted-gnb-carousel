@@ -1,4 +1,9 @@
 @mixin responsive($screen) {
+  @if ($screen == 'sm') {
+    @media screen and (min-width: $sm-breakpoint) {
+      @content;
+    }
+  }
   @if ($screen == 'md') {
     @media screen and (min-width: $md-breakpoint) {
       @content;

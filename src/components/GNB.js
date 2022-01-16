@@ -45,16 +45,20 @@ function GNB() {
                   <li className="gnb-nav-item sm-hidden">
                     <a href="/cv">이력서</a>
                   </li>
-                  <li className="gnb-nav-item sm-hidden">
-                    <a href="/community">커뮤니티</a>
-                    <span>New</span>
+                  <li className="gnb-nav-item community sm-hidden">
+                    <a href="/community">
+                      커뮤니티
+                      <strong>New</strong>
+                    </a>
                   </li>
                   <li className="gnb-nav-item sm-hidden">
                     <a href="https://www.wanted.co.kr/gigs/experts">프리랜서</a>
                   </li>
-                  <li className="gnb-nav-item sm-hidden">
-                    <a href="/aiscore/resume">AI 합격예측</a>
-                    <span>New</span>
+                  <li className="gnb-nav-item aiscore sm-hidden">
+                    <a href="/aiscore/resume">
+                      AI 합격예측
+                      <strong>New</strong>
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -87,6 +91,8 @@ function GNB() {
                   >
                     <img src="/assets/icons/more.svg" alt="내 메뉴 아이콘" />
                   </button>
+
+                  <button type="button"></button>
                 </div>
               </div>
             </div>

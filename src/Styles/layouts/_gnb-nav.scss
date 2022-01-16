@@ -1,17 +1,82 @@
 .gnb-nav {
+  $lg-item-community-width: 45px; // NOTE: rounded-off width of .gnb-nav-item.community
+  $lg-item-aiscore-width: 61px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
+  $lg-item-new-tag-top: 8px;
+  $lg-item-new-tag-left: 12px;
+
   &-list {
     @include flex(start);
   }
 
   &-item {
     @include text-style(gnb-base, $primary);
-    position: relative;
     padding: 15px 8px;
 
     &.sm-only {
       padding-left: 20px;
       margin-left: -20px;
       border-bottom: 1px solid $blue;
+    }
+
+    &.community,
+    &.aiscore {
+      a {
+        display: inline-block;
+        position: relative;
+
+        strong {
+          @include pos-center;
+          width: auto;
+          height: 20px;
+          font-family: $font-main;
+          font-size: 9px;
+          font-weight: 600;
+          line-height: 1.2;
+          color: $blue;
+        }
+      }
+    }
+
+    &.community {
+      a {
+        strong {
+          top: $lg-item-new-tag-top;
+          left: $lg-item-community-width + $lg-item-new-tag-left;
+        }
+      }
+    }
+
+    &.aiscore {
+      a {
+        strong {
+          top: $lg-item-new-tag-top;
+          left: $lg-item-aiscore-width + $lg-item-new-tag-left;
+        }
+      }
+    }
+  }
+
+  @include responsive(md) {
+    margin-right: 30px;
+
+    &-item {
+      @include text-style(gnb-sm);
+      padding: 11px 10px 19px;
+    }
+  }
+
+  @include responsive(lg) {
+    margin-right: 0;
+
+    &-list {
+      @include flex(around);
+      width: 100%;
+      flex-grow: 1;
+    }
+
+    &-item {
+      @include text-style(gnb-sm);
+      padding: 15px;
     }
   }
 }

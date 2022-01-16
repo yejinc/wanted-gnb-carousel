@@ -2,6 +2,7 @@
   @include inline-flex;
   height: 28px;
   padding: 0 10px;
+  white-space: nowrap;
   border: 1px solid $border;
   border-radius: 25px;
   background-color: $white;

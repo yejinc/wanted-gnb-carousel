@@ -1,0 +1,26 @@
+.gnb-buttons {
+  @include flex;
+  padding: 6px 0;
+  margin-top: -3px;
+
+  .gnb-icon-search,
+  .gnb-icon-noti,
+  .gnb-icon-more {
+    @include flex;
+
+    img {
+      display: block;
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .gnb-icon-search,
+  .gnb-icon-noti {
+    padding: 0 5px;
+  }
+
+  .gnb-icon-more {
+    padding-left: 10px;
+  }
+}

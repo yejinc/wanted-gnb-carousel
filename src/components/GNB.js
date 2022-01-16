@@ -6,7 +6,11 @@ function GNB() {
           <div className="col-sm-4">
             <div className="gnb-wrapper">
               <div className="gnb-left">
-                <button type="button">
+                <button
+                  className="gnb-left-job-category-btn"
+                  type="button"
+                  aria-label="직군 전체 열어보기 버튼"
+                >
                   <img
                     src="https://static.wanted.co.kr/images/icon-menu.png"
                     alt="메뉴 아이콘"
@@ -58,27 +62,30 @@ function GNB() {
               <div className="gnb-right">
                 <div className="gnb-buttons">
                   <button
-                    class="gnb-icon-button"
+                    class="gnb-icon-search"
                     type="button"
                     aria-label="검색 열기 버튼"
                   >
-                    <icon className="icon-button_search_line"></icon>
+                    <img src="/assets/icons/search.svg" alt="검색 아이콘" />
                   </button>
 
                   <button
-                    class="gnb-icon-button"
+                    class="gnb-icon-noti"
                     type="button"
                     aria-label="내 소식 열기 버튼"
                   >
-                    <icon className="icon-bell"></icon>
+                    <img
+                      src="/assets/icons/notification.svg"
+                      alt="내 소식 아이콘"
+                    />
                   </button>
 
                   <button
-                    class="gnb-icon-button sm-md-only"
+                    class="gnb-icon-more sm-md-only"
                     type="button"
                     aria-label="내 메뉴 열기 버튼"
                   >
-                    <icon className="icon-more_horiz"></icon>
+                    <img src="/assets/icons/more.svg" alt="내 메뉴 아이콘" />
                   </button>
                 </div>
               </div>

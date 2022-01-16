@@ -55,4 +55,21 @@
       background-color: $border;
     }
   }
+
+  @include responsive(xxl) {
+    &-item {
+      .gnb-icon-search,
+      .gnb-icon-noti {
+        padding: 10px;
+      }
+
+      .gnb-icon-noti {
+        margin-right: 10px;
+      }
+
+      &.is-cta {
+        margin-left: 15px;
+      }
+    }
+  }
 }

@@ -1,0 +1,17 @@
+.gnb-nav {
+  &-list {
+    @include flex(start);
+  }
+
+  &-item {
+    @include text-style(gnb-base, $primary);
+    position: relative;
+    padding: 15px 8px;
+
+    &.sm-only {
+      padding-left: 20px;
+      margin-left: -20px;
+      border-bottom: 1px solid $blue;
+    }
+  }
+}

@@ -1,8 +1,9 @@
 .gnb-nav {
+  $lg-item-height: 20px;
   $lg-item-community-width: 48px; // NOTE: rounded-off width of .gnb-nav-item.community
   $lg-item-aiscore-width: 66px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
-  $lg-item-new-tag-top: 8px;
-  $lg-item-new-tag-left: 8px;
+  $lg-item-add-top: 4px;
+  $lg-item-left-gap: 28px;
 
   &-list {
     @include flex(start);
@@ -10,47 +11,27 @@
 
   &-item {
     @include text-style(gnb-base, $primary);
-    padding: 15px 8px;
+    height: 50px;
 
-    &.sm-only {
-      padding-left: 20px;
+    a {
+      @include text-style(gnb-sm, $primary);
+      display: inline-block;
+      padding: 15px 8px;
+    }
+
+    &.xs-sm-only {
       border-bottom: 1px solid $blue;
-    }
 
-    &.community,
-    &.aiscore {
       a {
-        display: inline-block;
-        position: relative;
-
-        strong {
-          @include pos-center;
-          width: auto;
-          height: 20px;
-          font-family: $font-main;
-          font-size: 9px;
-          font-weight: 600;
-          line-height: 1.2;
-          color: $blue;
-        }
+        padding-left: 20px;
       }
     }
+  }
 
-    &.community {
+  @include responsive(sm) {
+    &-item {
       a {
-        strong {
-          top: $lg-item-new-tag-top;
-          left: $lg-item-community-width + $lg-item-new-tag-left;
-        }
-      }
-    }
-
-    &.aiscore {
-      a {
-        strong {
-          top: $lg-item-new-tag-top;
-          left: $lg-item-aiscore-width + $lg-item-new-tag-left;
-        }
+        font-size: $font-size-gnb-base;
       }
     }
   }
@@ -59,9 +40,49 @@
     margin-right: 30px;
 
     &-item {
-      @include text-style(gnb-sm);
-      padding: 11px 10px 19px;
       white-space: nowrap;
+
+      a {
+        font-size: $font-size-gnb-sm;
+        padding: 11px 10px 19px;
+      }
+
+      &.community,
+      &.aiscore {
+        a {
+          display: inline-block;
+          position: relative;
+
+          strong {
+            @include pos-center;
+            width: auto;
+            height: 20px;
+            font-family: $font-main;
+            font-size: 9px;
+            font-weight: 600;
+            line-height: 1.2;
+            color: $blue;
+          }
+        }
+      }
+
+      &.community {
+        a {
+          strong {
+            top: $lg-item-height + $lg-item-add-top;
+            left: $lg-item-community-width + $lg-item-left-gap;
+          }
+        }
+      }
+
+      &.aiscore {
+        a {
+          strong {
+            top: $lg-item-height + $lg-item-add-top;
+            left: $lg-item-aiscore-width + $lg-item-left-gap;
+          }
+        }
+      }
     }
   }
 
@@ -75,9 +96,8 @@
     }
 
     &-item {
-      padding: 15px 0;
       a {
-        font-size: 13px;
+        padding: 15px 0;
       }
     }
   }
@@ -87,8 +107,10 @@
       @include flex;
     }
     &-item {
-      @include text-style(gnb-base);
-      padding: 15px;
+      a {
+        padding: 15px;
+        font-size: $font-size-gnb-base;
+      }
     }
   }
 }

@@ -67,11 +67,11 @@
 
   @include responsive(lg) {
     margin-right: 0;
+    flex-grow: 1;
 
     &-list {
-      @include flex(around);
+      @include flex(evenly);
       width: 100%;
-      flex-grow: 1;
     }
 
     &-item {

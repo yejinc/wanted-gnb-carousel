@@ -1,3 +1,6 @@
+import Avatar from './modules/Avatar'
+import ButtonOutlined from './modules/ButtonOutlined'
+
 function GNB() {
   return (
     <header className="gnb">
@@ -64,36 +67,48 @@ function GNB() {
               </nav>
 
               <div className="gnb-right">
-                <div className="gnb-buttons">
-                  <button
-                    class="gnb-icon-search"
-                    type="button"
-                    aria-label="검색 열기 버튼"
-                  >
-                    <img src="/assets/icons/search.svg" alt="검색 아이콘" />
-                  </button>
+                <ul className="gnb-buttons">
+                  <li className="gnb-buttons-item">
+                    <button
+                      class="gnb-icon-search"
+                      type="button"
+                      aria-label="검색 열기 버튼"
+                    >
+                      <img src="/assets/icons/search.svg" alt="검색 아이콘" />
+                    </button>
+                  </li>
+                  <li className="gnb-buttons-item">
+                    <button
+                      class="gnb-icon-noti"
+                      type="button"
+                      aria-label="내 소식 열기 버튼"
+                    >
+                      <img
+                        src="/assets/icons/notification.svg"
+                        alt="내 소식 아이콘"
+                      />
+                    </button>
+                  </li>
+                  <li className="gnb-buttons-item">
+                    <button
+                      class="gnb-icon-more sm-md-only"
+                      type="button"
+                      aria-label="내 메뉴 열기 버튼"
+                    >
+                      <img src="/assets/icons/more.svg" alt="내 메뉴 아이콘" />
+                    </button>
+                  </li>
 
-                  <button
-                    class="gnb-icon-noti"
-                    type="button"
-                    aria-label="내 소식 열기 버튼"
-                  >
-                    <img
-                      src="/assets/icons/notification.svg"
-                      alt="내 소식 아이콘"
-                    />
-                  </button>
+                  <li className="gnb-buttons-item is-avatar sm-md-hidden">
+                    <Avatar />
+                  </li>
 
-                  <button
-                    class="gnb-icon-more sm-md-only"
-                    type="button"
-                    aria-label="내 메뉴 열기 버튼"
-                  >
-                    <img src="/assets/icons/more.svg" alt="내 메뉴 아이콘" />
-                  </button>
+                  <span className="gnb-buttons-divider" aria-hidden />
 
-                  <button type="button"></button>
-                </div>
+                  <li className="gnb-buttons-item is-cta sm-md-hidden">
+                    <ButtonOutlined />
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

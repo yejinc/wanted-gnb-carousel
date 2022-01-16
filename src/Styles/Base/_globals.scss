@@ -11,6 +11,14 @@
 }
 
 .sm-only {
+  @media screen and (max-width: ($sm-breakpoint - 1)) {
+    display: none !important;
+  }
+
+  @media screen and (min-width: $md-breakpoint) {
+    display: none !important;
+  }
+
   @media screen and (max-width: ($md-breakpoint - 1)) {
     display: none !important;
   }

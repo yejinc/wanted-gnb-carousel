@@ -1,8 +1,8 @@
 .gnb-nav {
-  $lg-item-community-width: 45px; // NOTE: rounded-off width of .gnb-nav-item.community
-  $lg-item-aiscore-width: 61px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
+  $lg-item-community-width: 48px; // NOTE: rounded-off width of .gnb-nav-item.community
+  $lg-item-aiscore-width: 66px; // NOTE: rounded-off width of .gnb-nav-item.aiscore
   $lg-item-new-tag-top: 8px;
-  $lg-item-new-tag-left: 12px;
+  $lg-item-new-tag-left: 8px;
 
   &-list {
     @include flex(start);
@@ -14,7 +14,6 @@
 
     &.sm-only {
       padding-left: 20px;
-      margin-left: -20px;
       border-bottom: 1px solid $blue;
     }
 
@@ -62,6 +61,7 @@
     &-item {
       @include text-style(gnb-sm);
       padding: 11px 10px 19px;
+      white-space: nowrap;
     }
   }
 
@@ -75,14 +75,17 @@
     }
 
     &-item {
-      @include text-style(gnb-sm);
-      padding: 15px;
+      padding: 15px 0;
+      a {
+        font-size: 13px;
+      }
     }
   }
 
-  @include responsive(lg) {
-    flex-grow: 0;
-
+  @include responsive(xl) {
+    &-list {
+      @include flex;
+    }
     &-item {
       @include text-style(gnb-base);
       padding: 15px;

@@ -27,7 +27,7 @@ function GNB() {
         <nav className="gnb-nav">
           <h2 className="visually-hidden">메뉴</h2>
           <ul className="gnb-nav-list">
-            <li className="gnb-nav-item xs-only">
+            <li className="gnb-nav-item xs-sm-only">
               <a href="/">홈</a>
             </li>
             <li className="gnb-nav-item">
@@ -36,22 +36,22 @@ function GNB() {
             <li className="gnb-nav-item">
               <a href="/events">이벤트</a>
             </li>
-            <li className="gnb-nav-item sm-hidden">
+            <li className="gnb-nav-item xs-sm-hidden">
               <a href="/salary">직군별 연봉</a>
             </li>
-            <li className="gnb-nav-item sm-hidden">
+            <li className="gnb-nav-item xs-sm-hidden">
               <a href="/cv">이력서</a>
             </li>
-            <li className="gnb-nav-item community sm-hidden">
+            <li className="gnb-nav-item community xs-sm-hidden">
               <a href="/community">
                 커뮤니티
                 <strong>New</strong>
               </a>
             </li>
-            <li className="gnb-nav-item sm-hidden">
+            <li className="gnb-nav-item xs-sm-hidden">
               <a href="https://www.wanted.co.kr/gigs/experts">프리랜서</a>
             </li>
-            <li className="gnb-nav-item aiscore sm-hidden">
+            <li className="gnb-nav-item aiscore xs-sm-hidden">
               <a href="/aiscore/resume">
                 AI 합격예측
                 <strong>New</strong>
@@ -93,13 +93,13 @@ function GNB() {
               </button>
             </li>
 
-            <li className="gnb-buttons-item is-avatar sm-md-hidden">
+            <li className="gnb-buttons-item is-avatar xs-sm-md-hidden">
               <Avatar />
             </li>
 
-            <span className="gnb-buttons-divider sm-md-hidden" aria-hidden />
+            <span className="gnb-buttons-divider xs-sm-md-hidden" aria-hidden />
 
-            <li className="gnb-buttons-item is-cta sm-md-hidden">
+            <li className="gnb-buttons-item is-cta xs-sm-md-hidden">
               <ButtonOutlined />
             </li>
           </ul>

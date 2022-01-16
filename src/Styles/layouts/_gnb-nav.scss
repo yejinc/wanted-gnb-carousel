@@ -79,4 +79,13 @@
       padding: 15px;
     }
   }
+
+  @include responsive(lg) {
+    flex-grow: 0;
+
+    &-item {
+      @include text-style(gnb-base);
+      padding: 15px;
+    }
+  }
 }

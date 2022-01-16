@@ -85,7 +85,7 @@ function GNB() {
             </li>
             <li className="gnb-buttons-item">
               <button
-                class="gnb-icon-more sm-md-only"
+                class="gnb-icon-more xs-sm-only"
                 type="button"
                 aria-label="내 메뉴 열기 버튼"
               >

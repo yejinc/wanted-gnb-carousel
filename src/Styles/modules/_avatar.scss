@@ -14,6 +14,17 @@
 
 .moreUser {
   position: relative;
+
+  .is-active {
+    @include flex;
+    @include pos-center;
+    top: 4px;
+    left: 28px;
+    width: 13px;
+    height: 13px;
+    background-color: $blue;
+    border-radius: 5px;
+  }
 }
 
 .avatarBorder {
@@ -30,15 +41,4 @@
   width: 28px;
   height: 28px;
   margin: 1px;
-}
-
-.profileNew {
-  @include flex;
-  @include pos-center;
-  top: 4px;
-  left: 28px;
-  width: 13px;
-  height: 13px;
-  background-color: $blue;
-  border-radius: 5px;
 }

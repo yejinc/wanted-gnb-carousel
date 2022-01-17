@@ -9,8 +9,8 @@
       .is-active {
         @include flex;
         @include pos-center;
-        top: 7px;
-        left: 28px;
+        top: 2px;
+        left: 23px;
         width: 13px;
         height: 13px;
         background-color: $blue;
@@ -48,7 +48,7 @@
   @include responsive(md) {
     &-item {
       .gnb-icon-noti {
-        margin-right: 5px;
+        margin-right: 10px;
       }
 
       .gnb-icon-more {
@@ -89,6 +89,13 @@
     margin-top: 0; // NOTE: visual alignment
 
     &-item {
+      &.is-noti {
+        .is-active {
+          top: 7px;
+          left: 28px;
+        }
+      }
+
       .gnb-icon-search,
       .gnb-icon-noti {
         margin-bottom: 0; // NOTE: visual alignment

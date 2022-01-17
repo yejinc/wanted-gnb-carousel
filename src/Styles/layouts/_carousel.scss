@@ -10,7 +10,10 @@
   }
 
   @include responsive(xxl) {
+    @include flex;
+
     &-list {
+      width: auto;
       padding: 0 50px;
 
       &-track {

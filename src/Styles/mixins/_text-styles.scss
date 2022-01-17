@@ -60,10 +60,10 @@
 
 @mixin carousel-desc-lg() {
   font-family: $font-main;
-  font-size: $font-size-carousel-desce-lg;
-  font-weight: $font-weight-carousel-desce-lg;
-  line-height: $line-height-carousel-desce-lg;
-  letter-spacing: $letter-spacing-carousel-desce-lg;
+  font-size: $font-size-carousel-desc-lg;
+  font-weight: $font-weight-carousel-desc-lg;
+  line-height: $line-height-carousel-desc-lg;
+  letter-spacing: $letter-spacing-carousel-desc-lg;
 }
 
 @mixin text-style($name, $color: false) {
@@ -96,7 +96,7 @@
   }
 
   @if ($name == carousel-desc-lg) {
-    @include carousel-title-lg;
+    @include carousel-desc-lg;
   }
 
   @if (type-of($color) == color) {

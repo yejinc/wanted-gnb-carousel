@@ -1,0 +1,13 @@
+.carousel {
+  &-list {
+    width: 100%;
+    height: auto;
+    padding: 0 40px;
+  }
+
+  @include responsive(xxl) {
+    &-list {
+      padding: 0 50px;
+    }
+  }
+}

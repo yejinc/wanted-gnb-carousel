@@ -43,15 +43,26 @@
   }
 
   @include responsive(lg) {
+    margin-top: 3px; // NOTE: visual alignment
+
     &-item {
+      .gnb-icon-search,
+      .gnb-icon-noti {
+        margin-bottom: 3px; // NOTE: visual alignment
+      }
+
       &.is-avatar {
         margin-right: 5px;
+      }
+
+      &.is-cta {
+        margin-bottom: 4px; // NOTE: visual alignment
       }
     }
 
     &-divider {
       display: inline-block;
-      margin: 10px;
+      margin: 10px 10px (10px + 3px) 10px; // NOTE: visual alignment 3px
       width: 1px;
       height: 10px;
       border-radius: 25px;
@@ -60,9 +71,12 @@
   }
 
   @include responsive(xxl) {
+    margin-top: 0; // NOTE: visual alignment
+
     &-item {
       .gnb-icon-search,
       .gnb-icon-noti {
+        margin-bottom: 0; // NOTE: visual alignment
         padding: 10px;
       }
 
@@ -70,7 +84,12 @@
         margin-right: 10px;
       }
 
+      &.is-avatar {
+        margin-bottom: 1px; // NOTE: visual alignment
+      }
+
       &.is-cta {
+        margin-bottom: 4px; // NOTE: visual alignment
         margin-left: 15px;
       }
     }

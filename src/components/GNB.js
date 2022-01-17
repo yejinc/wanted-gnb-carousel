@@ -71,7 +71,7 @@ function GNB() {
                 <img src="/assets/icons/search.svg" alt="검색 아이콘" />
               </button>
             </li>
-            <li className="gnb-buttons-item">
+            <li className="gnb-buttons-item is-noti">
               <button
                 className="gnb-icon-noti"
                 type="button"
@@ -82,6 +82,10 @@ function GNB() {
                   alt="내 소식 아이콘"
                 />
               </button>
+
+              <span className="is-active" aria-label="새 알림이 있습니다">
+                <img src="/assets/icons/new.svg" alt="나의 새 알람 아이콘" />
+              </span>
             </li>
             <li className="gnb-buttons-item">
               <button

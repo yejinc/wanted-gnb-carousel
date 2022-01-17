@@ -3,6 +3,21 @@
   padding: 9px 0;
 
   &-item {
+    &.is-noti {
+      position: relative;
+
+      .is-active {
+        @include flex;
+        @include pos-center;
+        top: 7px;
+        left: 28px;
+        width: 13px;
+        height: 13px;
+        background-color: $blue;
+        border-radius: 5px;
+      }
+    }
+
     .gnb-icon-search,
     .gnb-icon-noti,
     .gnb-icon-more {

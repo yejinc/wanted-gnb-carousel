@@ -16,12 +16,14 @@
 
 .btnGhost {
   @include inline-flex;
+  padding: 6px;
   background-color: transparent;
 
   a {
     @include flex;
     @include text-style(btn-ghost, $blue);
-    height: 40px;
+
+    height: 28px;
     overflow: hidden;
 
     img {

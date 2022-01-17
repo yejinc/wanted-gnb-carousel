@@ -1,7 +1,6 @@
 .gnb-buttons {
-  @include flex;
-  padding: 6px 0;
-  margin-top: -3px;
+  @include flex(center, end);
+  padding: 9px 0;
 
   &-item {
     .gnb-icon-search,
@@ -18,13 +17,17 @@
 
     .gnb-icon-search,
     .gnb-icon-noti {
-      padding: 0 5px;
+      padding: 5px;
     }
 
     .gnb-icon-more {
-      padding: 0 5px 0 10px;
+      padding: 5px 5px 5px 10px;
       margin-right: 10px;
     }
+  }
+
+  @include responsive(sm) {
+    margin-top: -10px; // NOTE: visual alignment
   }
 
   @include responsive(md) {

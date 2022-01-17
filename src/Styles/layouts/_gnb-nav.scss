@@ -43,6 +43,15 @@
     &-item {
       a {
         font-size: $font-size-gnb-base;
+        padding: 11px 10px 19px;
+      }
+
+      &.xs-sm-only {
+        border-bottom: 1px solid $blue;
+
+        a {
+          padding-left: 20px;
+        }
       }
     }
   }
@@ -55,7 +64,6 @@
 
       a {
         font-size: $font-size-gnb-sm;
-        padding: 11px 10px 19px;
       }
 
       &.community,

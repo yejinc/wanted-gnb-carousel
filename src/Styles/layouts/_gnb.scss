@@ -1,11 +1,16 @@
 .gnb {
-  height: 110px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: $gnb-level;
   background-color: $white;
   border-bottom: 1px solid rgba($black, 0.1);
 
   &-wrapper {
     @include flex(between);
     flex-wrap: wrap;
+    height: 110px;
   }
 
   &-left {

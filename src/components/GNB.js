@@ -3,7 +3,7 @@ import ButtonOutlined from './modules/ButtonOutlined'
 
 function GNB() {
   return (
-    <header className="gnb">
+    <div className="gnb">
       <div className="gnb-wrapper">
         <div className="gnb-left">
           <button
@@ -105,7 +105,7 @@ function GNB() {
           </ul>
         </div>
       </div>
-    </header>
+    </div>
   )
 }
 

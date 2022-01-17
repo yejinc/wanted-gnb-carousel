@@ -48,6 +48,12 @@
   }
 }
 
+.md-lg-xl-xxl-only {
+  @media screen and (max-width: ($md-breakpoint - 1)) {
+    display: none !important;
+  }
+}
+
 .xxl-only {
   @media screen and (max-width: ($xxl-breakpoint - 1)) {
     display: none !important;

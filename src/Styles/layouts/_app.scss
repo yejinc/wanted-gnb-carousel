@@ -1,5 +1,19 @@
-.main {
-  @include responsive(xxl) {
-    margin-top: 25px;
+.App {
+  .global-header {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .main {
+    margin-top: $gnb-height-md;
+
+    @include responsive(lg) {
+      margin-top: $gnb-height-lg;
+    }
+
+    @include responsive(xxl) {
+      margin-top: $gnb-height-lg + 25px;
+    }
   }
 }

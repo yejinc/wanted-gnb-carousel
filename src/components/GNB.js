@@ -71,7 +71,7 @@ function GNB() {
                 <img src="/assets/icons/search.svg" alt="검색 아이콘" />
               </button>
             </li>
-            <li className="gnb-buttons-item is-noti">
+            <li className="gnb-buttons-item btn-noti">
               <button
                 className="gnb-icon-noti"
                 type="button"
@@ -97,13 +97,13 @@ function GNB() {
               </button>
             </li>
 
-            <li className="gnb-buttons-item is-avatar xs-sm-md-hidden">
+            <li className="gnb-buttons-item btn-avatar xs-sm-md-hidden">
               <Avatar />
             </li>
 
             <span className="gnb-buttons-divider xs-sm-md-hidden" aria-hidden />
 
-            <li className="gnb-buttons-item is-cta xs-sm-md-hidden">
+            <li className="gnb-buttons-item btn-cta xs-sm-md-hidden">
               <ButtonOutlined />
             </li>
           </ul>

@@ -3,7 +3,7 @@
   padding: 9px 0;
 
   &-item {
-    &.is-noti {
+    &.btn-noti {
       position: relative;
 
       .is-active {
@@ -66,11 +66,11 @@
         margin-bottom: 3px; // NOTE: visual alignment
       }
 
-      &.is-avatar {
+      &.btn-avatar {
         margin-right: 5px;
       }
 
-      &.is-cta {
+      &.btn-cta {
         margin-bottom: 4px; // NOTE: visual alignment
       }
     }
@@ -89,7 +89,7 @@
     margin-top: 0; // NOTE: visual alignment
 
     &-item {
-      &.is-noti {
+      &.btn-noti {
         .is-active {
           top: 7px;
           left: 28px;
@@ -106,11 +106,11 @@
         margin-right: 10px;
       }
 
-      &.is-avatar {
+      &.btn-avatar {
         margin-bottom: 1px; // NOTE: visual alignment
       }
 
-      &.is-cta {
+      &.btn-cta {
         margin-bottom: 4px; // NOTE: visual alignment
         margin-left: 15px;
       }

@@ -5,12 +5,14 @@
   &-image {
     display: block;
     width: auto;
+    height: 183px;
     border-radius: 3px;
     overflow: hidden;
 
     a {
       @include flex;
-      height: 183px;
+      width: 100%;
+      height: 100%;
       overflow: hidden;
 
       img {
@@ -24,7 +26,10 @@
 
   &-text-group {
     @include column-flex;
+    position: static;
     width: 100%;
+    top: 0;
+    left: 0;
 
     .title-group {
       .title {
@@ -40,6 +45,55 @@
 
     .btn-carousel-cta {
       @include flex;
+    }
+  }
+
+  @include responsive(xxl) {
+    position: relative;
+    padding: 0;
+    width: auto;
+
+    &-image {
+      width: 1060px;
+      height: 300px;
+    }
+
+    &-text-group {
+      @include flex(start);
+      @include pos-center;
+      width: 330px;
+      top: 215px;
+      left: 185px;
+      border-radius: 4px;
+      background-color: $white;
+
+      .title-group {
+        padding: 20px 20px 0;
+        width: 100%;
+
+        &::after {
+          content: '';
+          display: block;
+          margin-left: -20px;
+          height: 1px;
+          width: 330px;
+          background-color: $border;
+        }
+
+        .title {
+          @include text-style(carousel-title-lg, $primary);
+          margin-top: 0;
+        }
+
+        .desc {
+          @include text-style(carousel-desc-lg, $primary);
+          margin-top: 0;
+          height: 44px;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
     }
   }
 }

@@ -7,7 +7,16 @@ function TopCarousel() {
       <div className="carousel-card">
         <div className="carousel-card-image">
           <a href={data[0].url} aria-label="{data[0].title} 바로가기">
-            <img src={data[0].imgSM} alt="{data[0].title} 이미지" />
+            <img
+              className="xs-sm-only"
+              src={data[0].imgSM}
+              alt="{data[0].title} 이미지"
+            />
+            <img
+              className="md-lg-xl-xxl-only"
+              src={data[0].imgMD}
+              alt="{data[0].title} 이미지"
+            />
           </a>
         </div>
         <div className="carousel-card-text-group">
@@ -16,7 +25,9 @@ function TopCarousel() {
             <h3 className="desc">{data[0].desc}</h3>
           </div>
 
-          <ButtonGhost />
+          <div className="btn-carousel-cta">
+            <ButtonGhost />
+          </div>
         </div>
       </div>
     )

@@ -3,6 +3,8 @@ import ButtonGhost from './modules/ButtonGhost'
 
 function TopCarousel() {
   function Card() {
+    document.querySelector('.carousel-card-text-group').style.transform = null
+
     return (
       <div className="carousel-card">
         <div className="carousel-card-image">

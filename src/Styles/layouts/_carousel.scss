@@ -3,11 +3,19 @@
     width: 100%;
     height: auto;
     padding: 0 40px;
+
+    &-track {
+      @include flex;
+    }
   }
 
   @include responsive(xxl) {
     &-list {
       padding: 0 50px;
+
+      &-track {
+        padding: 0 12px;
+      }
     }
   }
 }

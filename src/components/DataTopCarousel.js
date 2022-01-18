@@ -12,7 +12,7 @@ export default [
   {
     id: 1,
     title: '해, 커리어 EP 02 공개',
-    desc: '최종 발표를 위한 마지막 관문 2라운드의 승자는?',
+    desc: '마지막 관문 2라운드의 승자는?',
     imgSM:
       'https://static.wanted.co.kr/images/banners/1468/3df61cbc.thumb_1006_280.jpg',
     imgMD: 'https://static.wanted.co.kr/images/banners/1468/3df61cbc.jpg',

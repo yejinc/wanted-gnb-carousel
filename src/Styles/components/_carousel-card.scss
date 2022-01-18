@@ -5,6 +5,7 @@
   &.is-active {
     .carousel-card-image {
       filter: brightness(100%);
+      transition: filter 300ms ease-in-out;
     }
   }
 
@@ -53,7 +54,14 @@
   @include responsive(xxl) {
     position: relative;
     padding: 0;
-    width: auto;
+    width: 100%;
+
+    &.is-active {
+      .carousel-card-text-group {
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+      }
+    }
 
     &-image {
       width: 1060px;
@@ -67,9 +75,11 @@
       padding: 0 20px;
       top: 215px;
       left: 185px;
+      opacity: 0;
       text-align: left;
       border-radius: 4px;
       background-color: $white;
+      transition: opacity 300ms ease-in-out;
 
       .title {
         @include text-style(carousel-title-lg, $primary);

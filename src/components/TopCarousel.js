@@ -27,14 +27,10 @@ function TopCarousel() {
           </a>
         </div>
         <div className="carousel-card-text-group">
-          <div className="title-group">
-            <h2 className="title">{props.data.title}</h2>
-            <h3 className="desc">{props.data.desc}</h3>
-          </div>
-
-          <div className="btn-carousel-cta">
-            <ButtonGhost />
-          </div>
+          <h2 className="title">{props.data.title}</h2>
+          <h3 className="desc">{props.data.desc}</h3>
+          <hr className="divider" />
+          <ButtonGhost />
         </div>
       </div>
     )

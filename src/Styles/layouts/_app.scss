@@ -5,7 +5,11 @@
     width: 100%;
   }
 
-  .main {
+  .TopCarousel {
+    display: block;
+    position: relative;
+    height: 322px;
+    width: 100%;
     margin-top: $gnb-height-md;
 
     @include responsive(lg) {
@@ -13,6 +17,8 @@
     }
 
     @include responsive(xxl) {
+      padding: 0;
+      height: 300px;
       margin-top: $gnb-height-lg + 25px;
     }
   }

@@ -4,7 +4,7 @@
 
   &-image {
     display: block;
-    width: auto;
+    width: 100%;
     height: 183px;
     border-radius: 3px;
     overflow: hidden;
@@ -25,26 +25,21 @@
   }
 
   &-text-group {
-    @include column-flex;
+    display: block;
     position: static;
     width: 100%;
     top: 0;
     left: 0;
+    text-align: center;
 
-    .title-group {
-      .title {
-        @include text-style(carousel-title-sm, $primary);
-        margin-top: 20px;
-      }
-
-      .desc {
-        @include text-style(carousel-desc-sm, $primary);
-        margin-top: 6px;
-      }
+    .title {
+      @include text-style(carousel-title-sm, $primary);
+      margin-top: 20px;
     }
 
-    .btn-carousel-cta {
-      @include flex;
+    .desc {
+      @include text-style(carousel-desc-sm, $primary);
+      margin-top: 6px;
     }
   }
 
@@ -59,40 +54,39 @@
     }
 
     &-text-group {
-      @include flex(start);
+      @include column-flex(center, start);
       @include pos-center;
       width: 330px;
+      padding: 0 20px;
       top: 215px;
       left: 185px;
+      text-align: left;
       border-radius: 4px;
       background-color: $white;
 
-      .title-group {
-        padding: 20px 20px 0;
-        width: 100%;
+      .title {
+        @include text-style(carousel-title-lg, $primary);
+        margin-top: 0;
+        padding-top: 20px;
+        width: 330px;
+      }
 
-        &::after {
-          content: '';
-          display: block;
-          margin-left: -20px;
-          height: 1px;
-          width: 330px;
-          background-color: $border;
-        }
+      .desc {
+        @include text-style(carousel-desc-lg, $primary);
+        margin-top: 0;
+        height: 44px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
 
-        .title {
-          @include text-style(carousel-title-lg, $primary);
-          margin-top: 0;
-        }
-
-        .desc {
-          @include text-style(carousel-desc-lg, $primary);
-          margin-top: 0;
-          height: 44px;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
-        }
+      .divider {
+        display: block;
+        margin-left: -20px;
+        width: 330px;
+        height: 1px;
+        border-style: none;
+        background-color: $border;
       }
     }
   }

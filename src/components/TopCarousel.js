@@ -2,32 +2,34 @@ import data from './DataTopCarousel'
 import ButtonGhost from './modules/ButtonGhost'
 
 function TopCarousel() {
-  function Card() {
+  // let [data] = useState(DataTopCarousel)
+
+  function Card(props, className) {
     return (
       <div className="carousel-card">
         <div className="carousel-card-image">
           <a
-            href={data[0].url}
-            aria-label="{data[0].title} 바로가기"
+            href={props.data.url}
+            aria-label="{props.data.title} 바로가기"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               className="xs-sm-only"
-              src={data[0].imgSM}
-              alt="{data[0].title} 이미지"
+              src={props.data.imgSM}
+              alt="{props.data.title} 이미지"
             />
             <img
               className="md-lg-xl-xxl-only"
-              src={data[0].imgMD}
-              alt="{data[0].title} 이미지"
+              src={props.data.imgMD}
+              alt="{props.data.title} 이미지"
             />
           </a>
         </div>
         <div className="carousel-card-text-group">
           <div className="title-group">
-            <h2 className="title">{data[0].title}</h2>
-            <h3 className="desc">{data[0].desc}</h3>
+            <h2 className="title">{props.data.title}</h2>
+            <h3 className="desc">{props.data.desc}</h3>
           </div>
 
           <div className="btn-carousel-cta">
@@ -41,9 +43,18 @@ function TopCarousel() {
   return (
     <div className="carousel-top">
       <div className="carousel">
-        <div className="carousel-list">
+        <div className="carousel-list carousel-initialised">
           <div className="carousel-list-track">
-            <Card />
+            <Card data={data[0]} />
+            <Card data={data[1]} />
+            <Card data={data[2]} />
+            {/* <Card data={data[3]} />
+            <Card data={data[4]} />
+            <Card data={data[5]} />
+            <Card data={data[6]} />
+            <Card data={data[7]} />
+            <Card data={data[8]} />
+            <Card data={data[9]} /> */}
           </div>
         </div>
       </div>

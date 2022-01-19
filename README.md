@@ -24,25 +24,32 @@
 
 <!-- Content -->
 
-## 📸 Screenshots:
+## 📸 Mockups:
 
-### 📱 Mobile
+<div align="center">
+<h3>📱 Mobile</h3>
 
-<img  width="320" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053125-7eb5f161-91f9-43a7-b500-234ba9318525.jpeg">
+<br />
+
+<img  width="375" alt="mobile device mockup" src="https://user-images.githubusercontent.com/46529118/150175832-ee1faa36-b68c-4993-a575-25d04b69751d.png">
 
 <br />
 <br />
 
-### ✍️ Tablet
+<h3>✍️ Tablet</h3>
 
-<img width="768" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150055189-e91f0a14-979a-4127-a795-3d02b2c9fde2.jpeg">
+<br />
+
+<img width="768" alt="tablet device mockup" src="https://user-images.githubusercontent.com/46529118/150175825-f9a7ea50-b1e5-4346-b092-a05211796506.png">
 
 <br />
 <br />
 
-### 💻 Desktop
+<h3> 💻 Desktop</h3>
 
-<img width="1280" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053083-b71e0163-4230-4dc7-abe7-cd38c665301a.png">
+<br />
+
+<img width="1280" alt="desktop device mockup" src="https://user-images.githubusercontent.com/46529118/150176951-19b2522e-b093-4fb0-a3d5-d57afbbd2448.png">
 </div>
 
 <br />

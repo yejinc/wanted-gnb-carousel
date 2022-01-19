@@ -32,8 +32,8 @@ export default [
     title: 'UX 디자이너의 커리어 설계',
     desc: '브랜드 가치를 더하는 디자인',
     imgSM:
-      'https://static.wanted.co.kr/images/banners/1460/619f3af7.thumb_1006_280.jpg',
-    imgMD: 'https://static.wanted.co.kr/images/banners/1460/619f3af7.jpg',
+      'https://static.wanted.co.kr/images/banners/1488/baa54448.thumb_1006_280.jpg',
+    imgMD: 'https://static.wanted.co.kr/images/banners/1488/baa54448.jpg',
     url: 'https://www.wanted.co.kr/events/21_12_s08_b01',
   },
   {
@@ -41,8 +41,8 @@ export default [
     title: '개발자 성장 비결 공개!',
     desc: '글 쓰는 개발자들의 이야기',
     imgSM:
-      'https://static.wanted.co.kr/images/banners/1484/b2853456.thumb_1006_280.jpg',
-    imgMD: 'https://static.wanted.co.kr/images/banners/1484/b2853456.jpg',
+      'https://static.wanted.co.kr/images/banners/1460/619f3af7.thumb_1006_280.jpg',
+    imgMD: 'https://static.wanted.co.kr/images/banners/1460/619f3af7.jpg',
     url: 'https://www.wanted.co.kr/events/velog01',
   },
   {
@@ -50,8 +50,8 @@ export default [
     title: '성장하는 개발자가 되려면?',
     desc: 'OOO 검색하지 말 것!',
     imgSM:
-      'https://static.wanted.co.kr/images/banners/1486/fba2df30.thumb_1006_280.jpg',
-    imgMD: 'https://static.wanted.co.kr/images/banners/1486/fba2df30.jpg',
+      'https://static.wanted.co.kr/images/banners/1484/b2853456.thumb_1006_280.jpg',
+    imgMD: 'https://static.wanted.co.kr/images/banners/1484/b2853456.jpg',
     url: 'https://www.wanted.co.kr/events/livetalk28',
   },
   {

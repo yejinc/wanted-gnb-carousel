@@ -10,7 +10,10 @@ function ButtonNextNav(props) {
         style={{ display: 'flex', opacity: 0.5 }}
         onClick={onClick}
       >
-        <img src="/assets/icons/arrow-right.svg" alt="오른쪽 화살표 아이콘" />
+        <img
+          src="https://yejinc.github.io/wanted-gnb-carousel/assets/icons/arrow-right.svg"
+          alt="오른쪽 화살표 아이콘"
+        />
       </button>
     </div>
   )

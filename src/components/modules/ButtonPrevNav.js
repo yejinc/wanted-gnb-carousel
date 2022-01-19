@@ -10,7 +10,10 @@ function ButtonPrevNav(props) {
         style={{ display: 'flex', opacity: 0.5 }}
         onClick={onClick}
       >
-        <img src="/assets/icons/arrow-left.svg" alt="왼쪽 화살표 아이콘" />
+        <img
+          src="https://yejinc.github.io/wanted-gnb-carousel/assets/icons/arrow-left.svg"
+          alt="왼쪽 화살표 아이콘"
+        />
       </button>
     </div>
   )

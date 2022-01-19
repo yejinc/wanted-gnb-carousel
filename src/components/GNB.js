@@ -68,7 +68,10 @@ function GNB() {
                 type="button"
                 aria-label="검색 열기 버튼"
               >
-                <img src="./assets/icons/search.svg" alt="검색 아이콘" />
+                <img
+                  src="https://yejinc.github.io/wanted-gnb-carousel/assets/icons/search.svg"
+                  alt="검색 아이콘"
+                />
               </button>
             </li>
             <li className="gnb-buttons-item btn-noti">
@@ -78,13 +81,16 @@ function GNB() {
                 aria-label="내 소식 열기 버튼"
               >
                 <img
-                  src="./assets/icons/notification.svg"
+                  src="https://yejinc.github.io/wanted-gnb-carousel/assets/icons/notification.svg"
                   alt="내 소식 아이콘"
                 />
               </button>
 
               <span className="is-active" aria-label="새 알림이 있습니다">
-                <img src="./assets/icons/new.svg" alt="나의 새 알람 아이콘" />
+                <img
+                  src="https://raw.githubusercontent.com/yejinc/wanted-gnb-carousel/41542a447ba4a4477124d6cf550c6f06d7a7a21f/public/assets/icons/new.svg"
+                  alt="나의 새 알람 아이콘"
+                />
               </span>
             </li>
             <li className="gnb-buttons-item">

@@ -11,7 +11,7 @@ function ButtonNextNav(props) {
         onClick={onClick}
       >
         <img
-          src="https://yejinc.github.io/wanted-gnb-carousel/assets/icons/arrow-right.svg"
+          src="https://yejinc.github.io/wanted_pre_onboarding/assets/icons/arrow-right.svg"
           alt="오른쪽 화살표 아이콘"
         />
       </button>

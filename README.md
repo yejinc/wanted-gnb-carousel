@@ -4,9 +4,9 @@
 <!-- Header -->
 
 <div align="middle" >
-  <img width="120px;" src="https://github.com/yejinc/wanted-gnb-carousel/blob/main/public/apple-touch-icon.png?raw=true"/>
+  <img width="120px;" src="https://github.com/yejinc/wanted_pre_onboarding/blob/main/public/apple-touch-icon.png?raw=true"/>
 </div>
-<h1 align="middle">wanted-gnb-carousel</h2>
+<h1 align="middle">wanted_pre_onboarding</h2>
 <p align="middle">Wanted official website's GNB and Carousel with React.js</p>
 
 <p align="middle">
@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/license-MIT-8B8C8D.svg?style=flat-square"/>
 </p>
 
-<p align="middle"><a href="https://yejinc.github.io/wanted-gnb-carousel/">👉 DEMO LINK</a></p>
+<p align="middle"><a href="https://yejinc.github.io/wanted_pre_onboarding/">👉 DEMO LINK</a></p>
 
 <br />
 <br />

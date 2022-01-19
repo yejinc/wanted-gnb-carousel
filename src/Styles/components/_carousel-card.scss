@@ -10,7 +10,7 @@
   }
 
   &-image {
-    display: block;
+    @include flex;
     width: 100%;
     height: 183px;
     border-radius: 3px;
@@ -18,7 +18,6 @@
     filter: brightness(50%);
 
     a {
-      @include flex;
       width: 100%;
       height: 100%;
       overflow: hidden;
@@ -34,10 +33,8 @@
 
   &-text-group {
     display: block;
-    position: static;
+    position: relative;
     width: 100%;
-    top: 0;
-    left: 0;
     text-align: center;
 
     .title {
@@ -64,7 +61,7 @@
     }
 
     &-image {
-      width: 1060px;
+      width: 100%;
       height: 300px;
     }
 
@@ -74,7 +71,7 @@
       width: 330px;
       padding: 0 20px;
       top: 215px;
-      left: 185px;
+      left: 200px;
       opacity: 0;
       text-align: left;
       border-radius: 4px;

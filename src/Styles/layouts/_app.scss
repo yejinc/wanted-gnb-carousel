@@ -17,7 +17,6 @@
     }
 
     @include responsive(xxl) {
-      padding: 0;
       height: 300px;
       margin-top: $gnb-height-lg + 25px;
     }

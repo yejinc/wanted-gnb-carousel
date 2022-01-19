@@ -81,7 +81,7 @@ function GNB() {
                 aria-label="내 소식 열기 버튼"
               >
                 <img
-                  src="https://yejinc.github.io/wanted_pre_onboarding/assets/icons/notification.svg"
+                  src="https://raw.githubusercontent.com/yejinc/wanted_pre_onboarding/2e2e6348d37b890a4c6c9f1c8e8fa2441ba1ab2e/public/assets/icons/notification.svg"
                   alt="내 소식 아이콘"
                 />
               </button>

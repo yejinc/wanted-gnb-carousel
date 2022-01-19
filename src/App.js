@@ -8,7 +8,7 @@ function App() {
         <GNB />
       </header>
 
-      <main className="main">
+      <main className="Main">
         <TopCarousel />
       </main>
     </div>

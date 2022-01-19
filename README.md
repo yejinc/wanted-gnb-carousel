@@ -6,8 +6,8 @@
 <div align="middle" >
   <img width="120px;" src="https://github.com/yejinc/wanted_pre_onboarding/blob/main/public/apple-touch-icon.png?raw=true"/>
 </div>
-<h1 align="middle">wanted_pre_onboarding</h2>
-<p align="middle">Wanted official website's GNB and Carousel with React.js</p>
+<h1 align="middle">원티드 프리온보딩 코스</h2>
+<p align="middle">원티드 프리온보딩 코스 선발과제 - 원티드 랜딩페이지 상단 GNB 및 Carousel 개발</p>
 
 <p align="middle">
   <img src="https://img.shields.io/badge/version-1.0.0-F1F0E7?style=flat-square" alt="template version"/>
@@ -24,14 +24,32 @@
 
 <!-- Content -->
 
-## 📸 Screenshots: mobile, tablet, desktop
+## 📸 Screenshots:
 
-<div align="middle">
+### 📱 Mobile
 
-<img width="320" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053125-7eb5f161-91f9-43a7-b500-234ba9318525.jpeg">
+<img  width="320" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053125-7eb5f161-91f9-43a7-b500-234ba9318525.jpeg">
+
+<br />
+<br />
+
+### ✍️ Tablet
+
 <img width="768" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150055189-e91f0a14-979a-4127-a795-3d02b2c9fde2.jpeg">
+
+<br />
+<br />
+
+### 💻 Desktop
+
 <img width="1280" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053083-b71e0163-4230-4dc7-abe7-cd38c665301a.png">
 </div>
 
+<br />
+<br />
+
+## 👀 Takeaways
+
+TBD
 <br />
 <br />

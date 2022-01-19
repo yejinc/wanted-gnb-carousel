@@ -28,5 +28,11 @@
 
 <!-- <img width="1280" alt="" src="https://user-images.githubusercontent.com/46529118/128820127-1d613465-2b1b-4c40-8c3c-ebd78f01d9ec.png"> -->
 
+<div align="middle">
+<img width="320" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053125-7eb5f161-91f9-43a7-b500-234ba9318525.jpeg">
+<img width="768" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150054857-2b131766-4d39-49ec-bd03-e7c151d9a295.jpeg">
+<img width="1280" alt="Screenshot 2022-01-19 at 11 26 27 AM" src="https://user-images.githubusercontent.com/46529118/150053083-b71e0163-4230-4dc7-abe7-cd38c665301a.png">
+</div>
+
 <br />
 <br />

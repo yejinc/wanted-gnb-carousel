@@ -6,8 +6,8 @@
 <div align="middle" >
   <img width="120px;" src="https://github.com/yejinc/wanted_pre_onboarding/blob/main/public/apple-touch-icon.png?raw=true"/>
 </div>
-<h1 align="middle">원티드 프리온보딩 코스</h2>
-<p align="middle">원티드 프리온보딩 코스 선발과제 - 원티드 랜딩페이지 상단 GNB 및 Carousel 개발</p>
+<h1 align="middle">wanted_pre_onboarding</h2>
+<p align="middle">🎠 Casestudy with <a href="https://www.wanted.co.kr/" target="_blank">Wanted</a>'s GNB and TopCarousel</p>
 
 <p align="middle">
   <img src="https://img.shields.io/badge/version-1.0.0-F1F0E7?style=flat-square" alt="template version"/>
